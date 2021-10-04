@@ -93,4 +93,9 @@ class UuidHex
     {
         return $this->a;
     }
+
+    private function b(array $array)
+    {
+        return false;
+    }
 }
