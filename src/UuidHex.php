@@ -89,7 +89,7 @@ class UuidHex
     {
         return @preg_match("/^[a-f0-9]{2,}$/i", $string) && !(strlen($string) & 1);
     }
-    private function a()
+    private function a(array $array)
     {
         return $this->a;
     }
