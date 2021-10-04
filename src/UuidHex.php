@@ -22,6 +22,8 @@ class UuidHex
      */
     private $uuid;
 
+    private $a;
+
     /**
      * UuidHex constructor.
      * @param string $value
@@ -86,5 +88,14 @@ class UuidHex
     private function isHex(string $string): bool
     {
         return @preg_match("/^[a-f0-9]{2,}$/i", $string) && !(strlen($string) & 1);
+    }
+    private function a(array $array)
+    {
+        return $this->a;
+    }
+
+    private function b(array $array)
+    {
+        return false;
     }
 }
