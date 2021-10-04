@@ -22,6 +22,8 @@ class UuidHex
      */
     private $uuid;
 
+    private $a;
+
     /**
      * UuidHex constructor.
      * @param string $value
@@ -89,6 +91,6 @@ class UuidHex
     }
     public function a()
     {
-        return true;
+        return $this->a;
     }
 }
